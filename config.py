@@ -40,11 +40,11 @@ class Config:
     SESSION = os.environ.get("SESSION_STRING", "BQBMOPAM9e7_BXQzX9V6HtORfNj02_pqSw9jKvwzX_EtEK2083CTBOTsuiqAHZ9x1reOUEfvY2VMR14McoYh-FfmYmK_gcixijSCMzojE5GNekocsZ-14eOWPisl_xg9E0DRyxOSKWzP7dTYiXUhI1UQfz1xdA7DIbZzTgr73UvPr_Ipvq1YnTxQn_kFzeSRc8OXD8AhNZ1ayaOdm76tioan99_wluQznX5AI3aywIu78C21E9va4BuwVIMXL9BWKsXoqgO-4n_NcEkqHuMgHwAB_buLbuU_ou0jxIW7_Jh_be0dH4mJKyXioNl09q_EerdcWz_3LyFgnNVZozPDzWMYUvF4PAA")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", "-1001715180239"))
+    CHAT = int(os.environ.get("CHAT", "-1001822021062"))
     LOG_GROUP=os.environ.get("LOG_GROUP", "-1001654940300")
 
     #Stream 
-    STREAM_URL=os.environ.get("STARTUP_STREAM", "-1001715180239")
+    STREAM_URL=os.environ.get("STARTUP_STREAM", "-1001822021062")
    
     #Database
     DATABASE_URI=os.environ.get("DATABASE_URI", "mongodb+srv://KarthikMovies:KarthikUK007@cluster0.4l5byki.mongodb.net/?retryWrites=true&w=majority")
