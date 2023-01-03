@@ -44,7 +44,7 @@ class Config:
     LOG_GROUP=os.environ.get("LOG_GROUP", "-1001654940300")
 
     #Stream 
-    STREAM_URL=os.environ.get("STARTUP_STREAM", "-1001822021062")
+    STREAM_URL=os.environ.get("STARTUP_STREAM", "https://www.youtube.com/watch?v=zcrUCvBD16k")
    
     #Database
     DATABASE_URI=os.environ.get("DATABASE_URI", "mongodb+srv://KarthikMovies:KarthikUK007@cluster0.4l5byki.mongodb.net/?retryWrites=true&w=majority")
